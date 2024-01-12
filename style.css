@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    padding-top: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    margin: 20%;
+}
+
+section{
+    height: 200px;
+    border: 2px solid #000;
+    background-color: rgb(240, 29, 29);
+}
+
+.spawn{
+    display: block !important;
+}
+
+.despawn{
+    display: none !important;
+}
+
+#lien{
+    text-align: center;
+}
+
+a:hover{
+    color:aqua;
+    cursor: pointer;
+}
+
+#message{
+    text-align: center;
+    background-color: aqua;
+    margin: 2% 30%;
+    display: none;
+    
+}
+
+input, select{
+    background-color: rgb(73, 253, 253)
+}
+
+button{
+    padding: 1%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: rgb(116, 253, 253);
+}

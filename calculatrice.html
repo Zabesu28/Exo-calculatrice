@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="lien">
+        <a id="spawn">Faire apparaître la calculatrice</a> 
+        / 
+        <a id="despawn">Faire disparaître la calculatrice</a>
+    </h3>
+    <section id="calculatrice" class="spawn">
+            <form id="formulaire" class="container" action="/submit" method="post">
+                <input title="Saisir un chiffre" id="nb1" type="number">
+                <select title="Sélectionnez un opérateur" name="operateur" id="operateurs">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <input title="Saisir un chiffre" id="nb2" type="number">
+                <button type="submit">Calculer</button>
+            </form>
+            <p id="message"></p>
+    </section>  
+    <script src="script.js"></script>
+</body>
+</html>
